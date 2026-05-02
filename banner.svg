@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="180">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="180" rx="12" fill="url(#bg)"/>
+
+  <rect x="0" y="0" width="4" height="180" rx="2" fill="#B85F2C" opacity="0.8"/>
+
+  <!-- Open book glyph -->
+  <path d="M 102 110 Q 80 96 56 96 L 56 60 Q 80 60 102 74 Z"
+        fill="none" stroke="#E89160" stroke-width="2" opacity="0.95"/>
+  <path d="M 102 110 Q 124 96 148 96 L 148 60 Q 124 60 102 74 Z"
+        fill="none" stroke="#B85F2C" stroke-width="2" opacity="0.85"/>
+  <line x1="102" y1="74" x2="102" y2="110" stroke="#E89160" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Page lines on left page -->
+  <line x1="62" y1="74" x2="92" y2="76" stroke="#8b949e" stroke-width="1" opacity="0.55"/>
+  <line x1="62" y1="82" x2="90" y2="84" stroke="#8b949e" stroke-width="1" opacity="0.45"/>
+  <line x1="62" y1="90" x2="86" y2="92" stroke="#8b949e" stroke-width="1" opacity="0.35"/>
+
+  <!-- Play triangle on right page -->
+  <path d="M 116 76 L 116 100 L 138 88 Z" fill="#B85F2C" opacity="0.95"/>
+
+  <!-- Sound wave arcs -->
+  <path d="M 154 80 Q 162 88 154 96" fill="none" stroke="#E89160" stroke-width="1.6" opacity="0.7"/>
+  <path d="M 162 74 Q 174 88 162 102" fill="none" stroke="#B85F2C" stroke-width="1.6" opacity="0.5"/>
+
+  <text x="190" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="36" font-weight="600" fill="#e6edf3" letter-spacing="2">AUDIOBOOK</text>
+
+  <text x="190" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="14" fill="#8b949e" letter-spacing="0.5">Local M4B / MP3 player for Android</text>
+
+  <line x1="190" y1="122" x2="600" y2="122" stroke="#21262d" stroke-width="1"/>
+
+  <text x="190" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="11" fill="#6e7681">Chapters · cover art · ±10s · 1×–2× · per-book resume · no network</text>
+</svg>
