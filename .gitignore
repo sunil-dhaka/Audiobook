@@ -16,3 +16,6 @@ Thumbs.db
 # Keystores (never commit)
 *.jks
 *.keystore
+
+# Built APKs (release-only via GitHub Releases)
+*.apk
