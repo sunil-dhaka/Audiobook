@@ -141,9 +141,9 @@ class PlayerViewModel(app: Application) : AndroidViewModel(app) {
 
     override fun onCleared() {
         super.onCleared()
+        player.pause()
         savePositionNow()
         player.removeListener(playerListener)
         pollJob?.cancel()
-        // Do not release player here — kept alive for persistent playback across nav.
     }
 }
